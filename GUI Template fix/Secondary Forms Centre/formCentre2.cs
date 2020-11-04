@@ -17,10 +17,5 @@ namespace GUI_Template_fix.Secondary_Forms_Centre
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
