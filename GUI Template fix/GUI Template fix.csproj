@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3327827B-FC07-465C-AEE5-870C6F91627B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI_Template_fix</RootNamespace>
+    <AssemblyName>GUI Template</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=5.14.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.14.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secondary Forms Centre\formCentre1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre1.Designer.cs">
+      <DependentUpon>formCentre1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre2.Designer.cs">
+      <DependentUpon>formCentre2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre3.Designer.cs">
+      <DependentUpon>formCentre3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre4.Designer.cs">
+      <DependentUpon>formCentre4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre5.Designer.cs">
+      <DependentUpon>formCentre5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre6.Designer.cs">
+      <DependentUpon>formCentre6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Centre\formCentre7.Designer.cs">
+      <DependentUpon>formCentre7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight1.Designer.cs">
+      <DependentUpon>formRight1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight2.Designer.cs">
+      <DependentUpon>formRight2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight3.Designer.cs">
+      <DependentUpon>formRight3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight4.Designer.cs">
+      <DependentUpon>formRight4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight5.Designer.cs">
+      <DependentUpon>formRight5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight6.Designer.cs">
+      <DependentUpon>formRight6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary Forms Right\formRight7.Designer.cs">
+      <DependentUpon>formRight7.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Secondary Forms Centre\formCentre1.resx">
+      <DependentUpon>formCentre1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Centre\formCentre2.resx">
+      <DependentUpon>formCentre2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Centre\formCentre3.resx">
+      <DependentUpon>formCentre3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Centre\formCentre4.resx">
+      <DependentUpon>formCentre4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Centre\formCentre5.resx">
+      <DependentUpon>formCentre5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Centre\formCentre6.resx">
+      <DependentUpon>formCentre6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Centre\formCentre7.resx">
+      <DependentUpon>formCentre7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Right\formRight1.resx">
+      <DependentUpon>formRight1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Right\formRight2.resx">
+      <DependentUpon>formRight2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Right\formRight3.resx">
+      <DependentUpon>formRight3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Right\formRight4.resx">
+      <DependentUpon>formRight4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Right\formRight5.resx">
+      <DependentUpon>formRight5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Right\formRight6.resx">
+      <DependentUpon>formRight6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary Forms Right\formRight7.resx">
+      <DependentUpon>formRight7.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
